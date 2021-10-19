@@ -47,7 +47,7 @@ Para fazer estes exercícios, você vai precisar de um ambiente de desenvolvimen
     ```
     c1.r = 0.5;
     ```
-    Compile o programa. Algo vai dar errado... Se o código fosse em C e você quisesse acessar um elemento de um struct, isso estaria certo. Por que será que em Java é diferente? Aguarde o novo episódio, ou tente desvendar esee mistério consultando a bibliografia básica da disciplina :-) (Robert Sebesta. Conceitos de Linguagens de Programação. Bookman, 2018. Disponível no [Portal de E-books](https://www.ufsm.br/orgaos-suplementares/biblioteca/e-books-2/) da UFSM).
+    Compile o programa. Algo vai dar errado... Se o código fosse em C e você quisesse acessar um elemento de um struct, isso estaria certo. Por que será que em Java é diferente? Aguarde o novo episódio, ou tente desvendar esee mistério consultando a bibliografia básica da disciplina :smiley:  (Robert Sebesta. Conceitos de Linguagens de Programação. Bookman, 2018. Disponível no [Portal de E-books](https://www.ufsm.br/orgaos-suplementares/biblioteca/e-books-2/) da UFSM).
     
 
 ### Além do círculo 
