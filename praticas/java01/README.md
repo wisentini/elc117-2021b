@@ -34,27 +34,29 @@ Para fazer estes exercícios, você vai precisar de um ambiente de desenvolvimen
 
 ### Circle
 
-1. Baixe os programas [Circle.java](src/Circle.java) e [TestCircle.java](src/TestCircle.java), colocando-os na mesma pasta. 
+1. Baixe os programas [Circle.java](src/Circle.java) e [TestCircle.java](src/TestCircle.java) e **coloque-os na mesma pasta**. 
 
-2. Compile e execute o programa:
+2. Observe os códigos e procure identificar semelhanças e diferenças entre Java e C.
+
+3. Compile e execute o programa:
    ```
    javac Circle.java TestCircle.java
    java -cp . TestCircle
    ```
-3. No programa [TestCircle.java](src/TestCircle.java), inclua a seguinte linha de código ao final do método `main`:
+4. No programa [TestCircle.java](src/TestCircle.java), inclua a seguinte linha de código ao final do método `main`:
     ```
     c1.r = 0.5;
     ```
     Compile o programa. Algo vai dar errado... Se o código fosse em C e você quisesse acessar um elemento de um struct, isso estaria certo. Por que será que em Java é diferente? Aguarde o novo episódio, ou tente desvendar esee mistério consultando a bibliografia básica da disciplina :-) (Robert Sebesta. Conceitos de Linguagens de Programação. Bookman, 2018. Disponível no [Portal de E-books](https://www.ufsm.br/orgaos-suplementares/biblioteca/e-books-2/) da UFSM).
     
-    
-### Aventure-se!
-
-Aventure-se por códigos maiores, baixando o programa [HttpURLConnectionExample.java](src/HttpURLConnectionExample.java). Este programa faz uma requisição HTTP a um serviço que retorna frases sobre programação. 
-
-Compile e execute o programa para ver o resultado. Modifique o programa para fazer uma requisição a uma URL diferente. Por exemplo, troque por uma URL que faz uma consulta ao GitHub ou para este serviço com piadas do Chuck Norris: https://api.chucknorris.io/jokes/random :-)
-
 
 ### Além do círculo 
 
-E se, em vez de círculos, você quisesse representar algum outro tipo de objeto? Quais seriam suas características? O que se poderia fazer com este objeto? Com base em Circle.java e TestCircle.java, crie um programa simples para representar o que você pensou. 
+E se, em vez de círculos, você quisesse representar algum outro tipo de objeto? Quais seriam suas características? O que se poderia fazer com este objeto? Com base em Circle.java e TestCircle.java, crie um programa simples para representar o que você pensou. Mantenha o código em 2 arquivos nomeados e organizados com o mesmo padrão dos exemplos (substitua Circle pelo que você quiser representar).
+
+
+### Aventure-se!
+
+Se você quiser viver perigosamente :smiley: ... aventure-se por códigos maiores, baixando o programa [HttpURLConnectionExample.java](src/HttpURLConnectionExample.java). Este programa faz uma requisição HTTP a um serviço que retorna frases sobre programação. 
+
+Compile e execute o programa para ver o resultado. Modifique o programa para fazer uma requisição a uma URL diferente. Por exemplo, troque por uma URL que faz uma consulta ao GitHub ou para este serviço com piadas do Chuck Norris: https://api.chucknorris.io/jokes/random :-)
