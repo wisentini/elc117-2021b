@@ -23,8 +23,6 @@ Entregue esta parte numa pasta nomeada `circle` dentro do seu repositório de en
 
 2. Em Circle.java, acrescente um método `public void setRadius(double radius)` à classe Circle. Este método deverá alterar o raio de um círculo.
 
-3. Também em Circle.java, modifique o método `main` para chamar o método `setRadius` no círculo `c`.
-
 4. Em TestCircle.java, acrescente as seguintes linhas ao final do método `main`:
    ```
    Circle c2;
