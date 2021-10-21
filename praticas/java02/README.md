@@ -9,7 +9,7 @@ Antes de fazer os exercícios, consulte o vídeo sobre esses conceitos (material
 
 Esta prática vai ser entregue em um repositório específico no GitHub Classroom. Clique [aqui](https://classroom.github.com/a/Qjz7J3wd) para criá-lo. 
 
-Dentro desse repositório, você vai organizar seus arquivos em pastas, conforme as orientações em cada parte da prática. Serão 3 pastas no total: `circle`, `point`, `association` e `aggregation`. Siga sempre os padrões de nomes de pastas e arquivos.
+Dentro desse repositório, você vai organizar seus arquivos em pastas, conforme as orientações em cada parte da prática. Serão 4 pastas no total: `circle`, `point`, `association` e `aggregation`. Siga sempre os padrões de nomes de pastas e arquivos.
 
 
 
