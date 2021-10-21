@@ -1,7 +1,7 @@
 # Prática: Classes e Objetos em Java
 
 Nestes exercícios, você vai colocar em prática os conceitos de encapsulamento, classes e objetos em Java.
-Antes de fazer os exercícios, consulte o vídeo sobre esses conceitos (também na forma de slides, mas o vídeo está mais completo).
+Antes de fazer os exercícios, consulte o vídeo sobre esses conceitos (material também disponível na forma de slides, mas o vídeo está mais completo).
 
 
 
@@ -9,15 +9,17 @@ Antes de fazer os exercícios, consulte o vídeo sobre esses conceitos (também 
 
 Esta prática vai ser entregue em um repositório específico no GitHub Classroom. Clique [aqui](https://classroom.github.com/a/Qjz7J3wd) para criá-lo. 
 
-Dentro desse repositório, você vai organizar seus arquivos em pastas, conforme as orientações em cada parte da prática. Serão 3 pastas no total: `point`, `association` e `aggregation`. Siga sempre os padrões de nomes de pastas e arquivos.
+Dentro desse repositório, você vai organizar seus arquivos em pastas, conforme as orientações em cada parte da prática. Serão 3 pastas no total: `circle`, `point`, `association` e `aggregation`. Siga sempre os padrões de nomes de pastas e arquivos.
 
 
 
 ## Classe Circle
 
+Entregue esta parte numa pasta nomeada `circle` dentro do seu repositório de entrega.
 
+1. Baixe os programas [Circle.java](src/Circle.java) e [TestCircle.java](src/TestCircle.java) e coloque-os na mesma pasta (isso fará com que uma classe seja visível à outra). 
 
-1. Baixe os programas [Circle.java](src/Circle.java) e [TestCircle.java](src/TestCircle.java) e coloque-os na mesma pasta (isso fará com que uma classe seja visível à outra).
+2. O programa Circle.java não é exatamente o mesmo da prática passada. O que mudou?
 
 2. Em Circle.java, acrescente um método `public void setRadius(double radius)` à classe Circle. Este método deverá alterar o raio de um círculo.
 
@@ -100,6 +102,7 @@ No "mundo real", programas orientados a objetos têm muitas classes e elas se re
 
 Sua tarefa aqui vai ser focada nos 2 primeiros exemplos. Copie esses 2 exemplos localmente, em arquivos nomeados `Association.java` e `Aggregation.java`, respectivamente. Analise os códigos e identifique o que você já conhece e o que é novidade. Veja que estes códigos não usam arrays como mostrado na primeira parte da prática, mas sim classes que representam estruturas de dados. Quais são elas? Execute os programas e busque ajuda no chat da turma se tiver dúvidas.
 
+Nesta parte, basta você entregar os arquivos `Association.java` e `Aggregation.java` que você testou. Não é necessário modificá-los.
 
 
 ## Crie sua agregação de classes
