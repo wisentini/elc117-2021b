@@ -9,7 +9,7 @@ Antes de fazer os exercícios, consulte o vídeo sobre esses conceitos (material
 
 Esta prática vai ser entregue em um repositório específico no GitHub Classroom. Clique [aqui](https://classroom.github.com/a/Qjz7J3wd) para criá-lo. 
 
-Dentro desse repositório, você vai organizar seus arquivos em pastas, conforme as orientações em cada parte da prática. Serão 3 pastas no total: `circle`, `point`, `association` e `aggregation`. Siga sempre os padrões de nomes de pastas e arquivos.
+Dentro desse repositório, você vai organizar seus arquivos em pastas, conforme as orientações em cada parte da prática. Serão 4 pastas no total: `circle`, `point`, `association` e `aggregation`. Siga sempre os padrões de nomes de pastas e arquivos.
 
 
 
@@ -22,8 +22,6 @@ Entregue esta parte numa pasta nomeada `circle` dentro do seu repositório de en
 2. O programa Circle.java não é exatamente o mesmo da prática passada. O que mudou?
 
 2. Em Circle.java, acrescente um método `public void setRadius(double radius)` à classe Circle. Este método deverá alterar o raio de um círculo.
-
-3. Também em Circle.java, modifique o método `main` para chamar o método `setRadius` no círculo `c`.
 
 4. Em TestCircle.java, acrescente as seguintes linhas ao final do método `main`:
    ```
