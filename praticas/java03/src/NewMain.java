@@ -26,7 +26,7 @@ public class NewMain {
       @Override
       public void actionPerformed(ActionEvent e) {
         userlist.add(new User(t.getText()));
-	      System.out.println("Another user: " + User.getCount());
+	System.out.println("Another user: " + User.getCount());
       }
     });
 
