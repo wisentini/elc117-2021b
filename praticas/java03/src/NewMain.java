@@ -6,10 +6,10 @@ public class NewMain {
   public static void main(String[] args) {
     ArrayList<User> userlist = new ArrayList<User>();
 
-    // creating instance of JFrame
+    // create instance of JFrame
     JFrame f = new JFrame();
 
-    // creating instance of JButton
+    // create instance of JButton
     JButton b = new JButton("Add");
 
     // x axis, y axis, width, height
@@ -20,11 +20,13 @@ public class NewMain {
     t.setBounds(80, 60, 250, 40);
 
     // add event listener
+    // this code can be simplified
+    // see: https://www.codejava.net/java-core/the-java-language/java-8-lambda-listener-example
     b.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent e) {
         userlist.add(new User(t.getText()));
-	      System.out.println("Mais um user: " + User.getCount());
+	      System.out.println("Another user: " + User.getCount());
       }
     });
 
