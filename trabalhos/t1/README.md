@@ -38,7 +38,7 @@ Neste trabalho, você, integrante da liga, vai contribuir para a League of Langu
 - O código Java fornecido é formado pelas seguintes classes:
   - [Language](LeagueOfLanguages/app/src/main/java/br/ufsm/leagueoflanguages/Language.java): define a representação de uma linguagem de programação 
   - [LanguageRepository](LeagueOfLanguages/app/src/main/java/br/ufsm/leagueoflanguages/LanguageRepository.java): envia 2 tipos de requisições ao servidor e processa respostas recebidas
-  - [AppCLI](): interface de linha de comando (CLI - _Command Line Interface_) para usuários avançados como você! :smiley: 
+  - [AppCLI](LeagueOfLanguages/app/src/main/java/br/ufsm/leagueoflanguages/AppCLI.java): interface de linha de comando (CLI - _Command Line Interface_) para usuários avançados como você! :smiley: 
 
 - O diagrama de classes abaixo ilustra as associações entre as classes descritas acima.
 ![leagueoflanguages.png](leagueoflanguages.png)
