@@ -33,7 +33,7 @@ Neste trabalho, você, integrante da liga, vai contribuir para a League of Langu
   ```
   o atributo "languageId" tem o valor "java" e o atributo "firstAppeared" tem o valor "1995".
 
-- O código Java fornecido está [neste zip](LeagueOfLanguages.zip) e também pode ser obtido se você fizer fork do [repositório da disciplina](http://github.com/andreainfufsm), cloná-lo localmente e configurá-lo para mantê-lo sincronizado, conforme [estas instruções](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/).
+- O código Java fornecido está [neste zip](LeagueOfLanguages.zip) e também pode ser obtido se você fizer fork do [repositório da disciplina](http://github.com/andreainfufsm/elc117-2021b), cloná-lo localmente e configurá-lo para mantê-lo sincronizado, conforme [estas instruções](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/).
 
 - O código Java fornecido é formado pelas seguintes classes:
   - [Language](LeagueOfLanguages/app/src/main/java/br/ufsm/leagueoflanguages/Language.java): define a representação de uma linguagem de programação 
