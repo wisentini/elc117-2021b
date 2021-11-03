@@ -45,12 +45,12 @@ Neste trabalho, você, integrante da liga, vai contribuir para a League of Langu
 
 - O código fornecido está organizado como um projeto Gradle, reconhecido pelos mais importantes IDEs Java. Gradle é um _build system_ (sistema que automatiza tarefas como compilação, testes e empacotamento de código), assim como Maven e Ant. Gradle pode ser usado tanto via interface gráfica do IDE como via linha de comando em terminal.
 
-- Para compilar e executar o projeto, você pode usar os seguintes comandos (já ilustrando argumentos que podem ser passados):
+- Para compilar e executar o projeto, você pode usar os seguintes comandos:
   ```
   gradle run -PchooseMain=br.ufsm.leagueoflanguages.AppCLI --args="saveLanguage c 1972 Multi-paradigm%3A+imperative+%28procedural%29%2C+structured username"
   gradle run -PchooseMain=br.ufsm.leagueoflanguages.AppCLI --args="findAllLanguages"
   ```
-  Esse comando especifica a classe principal (que contém o método `main`) e os argumentos que devem ser passados para a classe.
+  Esses comandos especificam a classe principal (que contém o método `main`) e os argumentos que devem ser passados para a classe. Veja que os argumentos contêm primeiro a ação a ser realizada no servidor (`saveLanguage` ou `findAllLanguages`). No caso de `saveLanguage`, os argumentos seguintes caracterizam a linguagem que se quer cadastrar (estes argumentos deverão ser substituídos por outros, pois a linguagem C já está cadastrada).
 
 - Para enviar um argumento contendo espaços ou outros caracteres especiais, é preciso **codificar** o texto, como no exemplo acima (veja o quarto argumento, que especifica o paradigma). Para isso, você pode usar [este serviço](https://www.w3schools.com/tags/ref_urlencode.ASP).
 
