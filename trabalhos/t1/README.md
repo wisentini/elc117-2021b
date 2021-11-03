@@ -45,7 +45,7 @@ Neste trabalho, você, integrante da liga, vai contribuir para a League of Langu
 
 - O código fornecido está organizado como um projeto Gradle, reconhecido pelos mais importantes IDEs Java. Gradle é um _build system_ (sistema que automatiza tarefas como compilação, testes e empacotamento de código), assim como Maven e Ant. Gradle pode ser usado tanto via interface gráfica do IDE como via linha de comando em terminal.
 
-- Para compilar e executar o projeto, você pode usar o seguinte comando:
+- Para compilar e executar o projeto, você pode usar os seguintes comandos (já ilustrando argumentos que podem ser passados):
   ```
   gradle run -PchooseMain=br.ufsm.leagueoflanguages.AppCLI --args="saveLanguage c 1972 Multi-paradigm%3A+imperative+%28procedural%29%2C+structured username"
   gradle run -PchooseMain=br.ufsm.leagueoflanguages.AppCLI --args="findAllLanguages"
