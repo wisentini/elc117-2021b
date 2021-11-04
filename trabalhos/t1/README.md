@@ -72,7 +72,7 @@ Obs.: Não tenha medo e muito menos vergonha de enviar dados de teste para o ser
 
 Se quiser praticar mais, você também pode:
 
-1. Incrementar o AppGUI para também mostrar a lista de linguagens cadastradas, usando qualquer componente à sua escolha (por exemplo: JTestArea, JTable, ...).
+1. Incrementar o AppGUI para também mostrar a lista de linguagens cadastradas, usando qualquer componente à sua escolha (por exemplo: [JTextArea](https://docs.oracle.com/en/java/javase/16/docs/api/java.desktop/javax/swing/JTextArea.html), [JTable](https://docs.oracle.com/en/java/javase/16/docs/api/java.desktop/javax/swing/JTable.html), ...).
 
 2. Implementar o encoding do texto enviado ao serviço, substituindo espaços e outros caracteres conforme o esquema descrito [aqui](https://www.w3schools.com/tags/ref_urlencode.ASP).
 
