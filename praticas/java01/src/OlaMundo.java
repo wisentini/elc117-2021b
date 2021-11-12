@@ -1,6 +1,6 @@
-/** 
- * Esta classe implementa uma versao Java do programa que
- * imprime "Ola, mundo!" na saida padrao.
+/*
+ * Esta classe implementa uma versao Java do programa que imprime "Ola, mundo!"
+ * na saida padrao.
  */
 class OlaMundo {
     public static void main(String[] args) {
