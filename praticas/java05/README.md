@@ -19,11 +19,11 @@ Esta prática vai ser entregue em um repositório específico no GitHub Classroo
 Para começar, baixe o arquivo [polymorphism.zip](src/polymorphism.zip) ou, se você fez fork do repositório da disciplina, sincronize os repositórios seguindo estas [instruções](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) (também possível via [linha de comando](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/).
 
 Neste código fornecido, há uma hierarquia de classes em Java inspiradas em jogos tipo RPG:
-- [GameItem.java](src/polymorphism/GameItem.java): superclasse que representa itens que podem ser colocados em uma sacola;
-- [Weapon.java](src/polymorphism/Weapon.java): subclasse de GameItem representando uma arma;
-- [Consumable.java](src/polymorphism/Consumable.java): subclasse de GameItem representando um item consumível (comida, poção, etc.)
-- [GameItemTestCLI.java](src/polymorphism/GameItemTestCLI.java): programa com interface textual (command-line) que usa as classes acima
-- [GameItemTestGUI.java](src/polymorphism/GameItemTestGUI.java): programa com interface gráfica (com Swing) que usa as classes acima
+- [GameItem.java](src/polymorphism/app/src/main/java/polymorphism/GameItem.java): superclasse que representa itens que podem ser colocados em uma sacola;
+- [Weapon.java](src/polymorphism/app/src/main/java/polymorphism/Weapon.java): subclasse de GameItem representando uma arma;
+- [Consumable.java](src/polymorphism/app/src/main/java/polymorphism/Consumable.java): subclasse de GameItem representando um item consumível (comida, poção, etc.)
+- [GameItemTestCLI.java](src/polymorphism/app/src/main/java/polymorphism/GameItemTestCLI.java): programa com interface textual (command-line) que usa as classes acima
+- [GameItemTestGUI.java](src/polymorphism/app/src/main/java/polymorphism/GameItemTestGUI.java): programa com interface gráfica (com Swing) que usa as classes acima
 
 Estas classes estão representadas neste diagrama em UML (Unified Modeling Language):
 
