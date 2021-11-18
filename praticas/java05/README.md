@@ -34,9 +34,9 @@ Estas classes estão representadas neste diagrama em UML (Unified Modeling Langu
 
 
 1. Em um terminal de comandos, compile o código e execute a classe `GameItemTestCLI` usando Gradle:
-```
-gradle run
-```
+  ```
+  gradle run
+  ```
 
 2. Observe que o método `main` dessa classe cria uma coleção (ArrayList) de objetos e implementa diferentes formas de iterar sobre eles (veja comentários no código). 
 
@@ -66,9 +66,9 @@ gradle run
 1. O programa [GameItemTestGUI.java](src/polymorphism/app/src/main/java/polymorphism/GameItemTestGUI.java) mostra dados de objetos `GameItem` em uma interface gráfica. Para executar o `main` deste programa, altere o arquivo `build.gradle`, na linha que indica a `mainClass`, substituindo `GameItemTestCLI` por `GameItemTestGUI`.
 
 2. Em um terminal de comandos, execute o programa com interface gráfica usando Gradle:
-```
-gradle run
-```
+  ```
+  gradle run
+  ```
 
 3. Veja o que acontece a cada clique no botão Next. Confira o código [GameItemTestGUI.java](src/polymorphism/app/src/main/java/polymorphism/GameItemTestGUI.java) linha por linha e compare com a saída observada.
 
