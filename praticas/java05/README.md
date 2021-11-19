@@ -16,7 +16,7 @@ Esta prática vai ser entregue em um repositório específico no GitHub Classroo
 
 ## Preparação
 
-Para começar, baixe o arquivo [polymorphism.zip](src/polymorphism.zip) ou, se você fez fork do repositório da disciplina, sincronize os repositórios seguindo estas [instruções](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) (também possível via [linha de comando](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/).
+Para começar, baixe o arquivo [polymorphism.zip](src/polymorphism.zip) ou, se você fez fork do repositório da disciplina, sincronize os repositórios seguindo estas [instruções](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) (também possível via [linha de comando](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/)).
 
 Neste código fornecido, há uma hierarquia de classes em Java inspiradas em jogos tipo RPG:
 - [GameItem.java](src/polymorphism/app/src/main/java/polymorphism/GameItem.java): superclasse que representa itens que podem ser colocados em uma sacola;
@@ -63,7 +63,7 @@ Estas classes estão representadas neste diagrama em UML (Unified Modeling Langu
 ## Exercícios GUI (Graphical User Interface)
 
 
-1. O programa [GameItemTestGUI.java](src/polymorphism/app/src/main/java/polymorphism/GameItemTestGUI.java) mostra dados de objetos `GameItem` em uma interface gráfica. Para executar o `main` deste programa, altere o arquivo `build.gradle`, na linha que indica a `mainClass`, substituindo `GameItemTestCLI` por `GameItemTestGUI`.
+1. O programa [GameItemTestGUI.java](src/polymorphism/app/src/main/java/polymorphism/GameItemTestGUI.java) mostra dados de objetos `GameItem` em uma interface gráfica. Para executar o `main` deste programa, altere o arquivo [build.gradle](src/polymorphism/app/build.gradle), na linha que indica a `mainClass`, substituindo `GameItemTestCLI` por `GameItemTestGUI`.
 
 2. Em um terminal de comandos, execute o programa com interface gráfica usando Gradle:
    ```
