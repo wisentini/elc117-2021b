@@ -21,6 +21,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
+    //mainClass = 'polymorphism.GameItemTestCLI'
     mainClass = 'polymorphism.GameItemTestGUI'
 }
 

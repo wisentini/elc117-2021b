@@ -18,4 +18,6 @@
 
 ### AppGUI
 
+`gradle run -PchooseMain=br.ufsm.leagueoflanguages.AppGUI`
+
 ![screenshot](/img/screenshot.png)
