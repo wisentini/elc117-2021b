@@ -21,7 +21,7 @@ Para começar, baixe o arquivo [abstractexample.zip](src/abstractexample.zip) ou
 Neste código fornecido, temos as seguintes classes:
 - [Language.java](src/abstractexample/app/src/main/java/abstractexample/Language.java): classe que armazena dados sobre linguagens, mesma classe do trabalho T1;
 - [LanguageTableModel.java](src/abstractexample/app/src/main/java/abstractexample/LanguageTableModel.java): classe que provê dados (Model) para exibição em formato de tabela;
-- [LanguageTableGUI.java](src/polymorphism/app/src/main/java/polymorphism/LanguageTableGUI.java): classe que implementa a interface gráfica (View). 
+- [LanguageTableGUI.java](src/abstractexample/app/src/main/java/abstractexample/LanguageTableGUI.java): classe que implementa a interface gráfica (View). 
 
 Nestes [slides](https://docs.google.com/presentation/d/1ytrLL75Dxd7ucYHszVVBw9oA7pWlBkBTFL5wdEuYl54/edit?usp=sharing) você encontra uma explicação sobre a apresentação de dados em tabela usando Java.
 
