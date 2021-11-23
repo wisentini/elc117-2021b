@@ -49,4 +49,7 @@ gradle run
 
 Se você quiser exercitar mais, crie um novo programa que apresente outra lista de objetos em forma de tabela (por exemplo, uma tabela com dados sobre pessoas, sobre produtos vendidos, etc. Procure variar os tipos dos atributos (não se limite à classe String).
 
+## Material de apoio 
 
+[How to make Editable JTable in Java Swing](https://www.codejava.net/java-se/swing/editable-jtable-example)  
+Artigo descrevendo um código semelhante ao que é fornecido nesta prática.
