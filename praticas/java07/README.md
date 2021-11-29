@@ -14,7 +14,7 @@ Antes desta prática, consulte o material sobre exceções em Java (<a href="htt
 Esta prática vai ser entregue em um repositório específico no GitHub Classroom. Clique [aqui](https://classroom.github.com/a/xibKSpK3) para criá-lo. 
 
 
-## Preparação: exemplos de exceções
+## Preparação
 
 Esta parte não precisa ser entregue!
 
@@ -35,3 +35,4 @@ Alere um caractere da URL (variável `urlstr`) para torná-la inválida. Compile
 
 Altere o programa para capturar e tratar a exceção que ocorre quando a URL não pode ser acessada.
 
+Entregue o arquivo modificado.
