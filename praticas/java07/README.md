@@ -29,7 +29,7 @@ No arquivo [ExceptionExamples.java](src/ExceptionExamples.java) há vários exem
 
 ## Exercício
 
-No arquivo [HttpURLConnectionExample.java](HttpURLConnectionExample.java), há um programa que faz uma requisição pela rede a uma URL. Compile e execute o programa.
+No arquivo [HttpURLConnectionExample.java](src/HttpURLConnectionExample.java), há um programa que faz uma requisição pela rede a uma URL. Compile e execute o programa.
 
 Alere um caractere da URL (variável `urlstr`) para torná-la inválida. Compile e execute o programa novamente. Como a URL alterada, o programa produzirá uma exceção e terminará abruptamente. Como o main está declarado com `throws Exception`, a exceção não é capturada e tratada.
 
