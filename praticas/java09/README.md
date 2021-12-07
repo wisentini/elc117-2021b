@@ -30,7 +30,7 @@ Localize as pausas no código.
 5. Compile e execute o programa, usando o botão Run no repl.it. Seja paciente :-)
 
 6. É possível que o programa ainda produza resultados corretos mas, novamente, isso não quer dizer que o programa esteja correto! Para você não se cansar de executá-lo várias vezes, é fornecido um script para repetir a execução do programa e parar quando os resultados forem diferentes.
-Por exemplo, para repetir a execução 20 vezes, execute no terminal do repl.it:
+Por exemplo, para repetir a execução 20 vezes, execute no **terminal** (não na console) do repl.it:
    ```
    bash repete-execucao.sh 20 java Main
    ```
