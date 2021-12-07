@@ -13,7 +13,7 @@ Antes de fazer a prática, consulte estes [slides](https://docs.google.com/prese
 
 ## Entrega
 
-Esta prática vai ser entregue em um repositório específico no GitHub Classroom. Clique [aqui](https://classroom.github.com/a/SwoPMApm) para criá-lo.
+Esta prática vai ser entregue em um repositório específico no GitHub Classroom. Clique [aqui](https://classroom.github.com/a/moODL9kb) para criá-lo.
 
 
 ## Operações Bancárias
