@@ -43,7 +43,7 @@ Por exemplo, para repetir a execução 20 vezes, execute no **terminal** (não n
 
 1. Baixe o arquivo [threadabc.zip](src/threadabc.zip), que contém os arquivos para os próximos exercícios, conforme explicado ao final dos slides.
 
-2. LEIA ISSO ANTES: Neste programa, **3 threads** atualizam concorrentemente um **array compartilhado**, inserindo caracteres A, B ou C na próxima posição livre. Cada thread insere 20 caracteres, portanto, no final de cada rodada, a contagem de caracteres no array deve ser: A=20 B=20 C=20.
+2. LEIA ISTO AQUI ANTES: Neste programa, **3 threads** atualizam concorrentemente um **array compartilhado**, inserindo caracteres A, B ou C na próxima posição livre. Cada thread insere 20 caracteres, portanto, no final de cada rodada, a contagem de caracteres no array deve ser: A=20 B=20 C=20.
 
 3. Execute o programa várias vezes e observe como a ordem de execução das threads pode variar. Além disso, observe que o resultado final nem sempre é correto (problema de **inconsistência de dados**).
 
