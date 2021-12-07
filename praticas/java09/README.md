@@ -41,17 +41,17 @@ Por exemplo, para repetir a execução 20 vezes, execute no **terminal** (não n
 ## Array Compartilhado
 
 
-2. Baixe o arquivo [threadabc.zip](src/threadabc.zip), que contém os arquivos para os próximos exercícios, conforme explicado ao final dos slides.
+1. Baixe o arquivo [threadabc.zip](src/threadabc.zip), que contém os arquivos para os próximos exercícios, conforme explicado ao final dos slides.
 
-3. LEIA ISSO ANTES: Neste programa, **3 threads** atualizam concorrentemente um **array compartilhado**, inserindo caracteres A, B ou C na próxima posição livre. Cada thread insere 20 caracteres, portanto, no final de cada rodada, a contagem de caracteres no array deve ser: A=20 B=20 C=20.
+2. LEIA ISSO ANTES: Neste programa, **3 threads** atualizam concorrentemente um **array compartilhado**, inserindo caracteres A, B ou C na próxima posição livre. Cada thread insere 20 caracteres, portanto, no final de cada rodada, a contagem de caracteres no array deve ser: A=20 B=20 C=20.
 
-4. Execute o programa várias vezes e observe como a ordem de execução das threads pode variar. Além disso, observe que o resultado final nem sempre é correto (problema de **inconsistência de dados**).
+3. Execute o programa várias vezes e observe como a ordem de execução das threads pode variar. Além disso, observe que o resultado final nem sempre é correto (problema de **inconsistência de dados**).
 
-5. Corrija o programa, utilizando um método `synchronized`. Para isso, identifique primeiro a classe que representa o objeto compartilhado, depois identifique o método que deve ser executado em exclusão mútua. 
+4. Corrija o programa, utilizando um método `synchronized`. Para isso, identifique primeiro a classe que representa o objeto compartilhado, depois identifique o método que deve ser executado em exclusão mútua. 
 
-6. Re-execute o programa algumas vezes para verificar a mudança no comportamento das execuções.
+5. Re-execute o programa algumas vezes para verificar a mudança no comportamento das execuções.
 
 
-7. No repositório de entrega, em uma pasta nomeada `threadabc`, entregue: a) uma imagem de execução do código original incorreto, b) uma imagem de execução do código corrigido e c) um arquivo de texto explicando a alteração realizada, explicando como você identificou o objeto compartilhado e o método que devia ser executado em exclusão mútua.
+6. No repositório de entrega, em uma pasta nomeada `threadabc`, entregue: a) uma imagem de execução do código original incorreto, b) uma imagem de execução do código corrigido e c) um arquivo de texto explicando a alteração realizada, explicando como você identificou o objeto compartilhado e o método que devia ser executado em exclusão mútua.
 
 
