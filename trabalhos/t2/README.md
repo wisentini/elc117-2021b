@@ -12,7 +12,7 @@
 
 
 ## Contexto
----
+
 
 No primeiro trabalho, você partiu de um código fornecido e implementou a inserção e leitura de dados sobre linguagens de programação, mantidos [nesta planilha](https://docs.google.com/spreadsheets/d/1UceqvZgF2dTHRFzYO_bY6fE3oOht02-8tkCgcRMb24k/edit?usp=sharing) e acessíveis via um web service. 
 
@@ -22,7 +22,7 @@ Na planilha do trabalho, existe uma aba para armazenar links sobre recursos que 
 
 
 ## Objetivo
----
+
 
 Seu objetivo será criar um programa em Java para cadastro e busca de recursos sobre linguagens de programação, por meio do web service que escreve e lê dados da planilha. Você também vai usar este programa para alimentar a planilha com dados reais de recursos escolhidos e indicados por você, sobre uma ou mais linguagens de programação.
 
@@ -30,7 +30,7 @@ Seu objetivo será criar um programa em Java para cadastro e busca de recursos s
 
 
 ## Requisitos mínimos
----
+
 
 1. O programa deverá ter **interface gráfica**. Você pode usar os componentes gráficos do Swing, aproveitando os exemplos fornecidos nas práticas, mas também explorando outros componentes, por exemplo JComboBox, JMenu, etc. Você pode usar manualmente as classes de layout do Swing ou usar alguma ferramenta de desenho de interface. 
 
@@ -44,7 +44,7 @@ Seu objetivo será criar um programa em Java para cadastro e busca de recursos s
 5. Você deverá usar seu programa para incluir **pelo menos 5 recursos** na planilha, com seu userId.
 
 ## Requisitos adicionais 
----
+
 Para ir além do mínimo, implemente pelo menos um requisito adicional que não esteja na lista anterior e que amplie sua experiência. Por exemplo:
 
 1. Implemente um 'login' no seu programa para não precisar digitar o userId a cada inclusão de recurso. Esse userId pode ou não ser validado junto ao GitHub. Uma vez feito o login, todos os recursos inseridos terão o userId preenchido por default. 
@@ -58,7 +58,7 @@ Para ir além do mínimo, implemente pelo menos um requisito adicional que não 
 
 
 ## Orientações gerais
----
+
 
 1. Faça o trabalho incrementalmente, sem tentar resolver todos os requisitos de uma vez só. Comece aproveitando os exemplos fornecidos nas práticas, adaptando-os ao novo contexto.
 
@@ -79,7 +79,7 @@ Para ir além do mínimo, implemente pelo menos um requisito adicional que não 
 
 
 ## Web service
----
+
 Assim como no primeiro trabalho, o acesso à planilha que armazena os dados se dá por meio de requisições Web.
 
 As requisições implementadas só realizam inclusões e leituras, sem a possibilidade de alterações e exclusões. Para facilitar testes, todas as requisições Web podem ser enviadas via navegador.
