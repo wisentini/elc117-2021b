@@ -24,7 +24,7 @@ No arquivo [ExceptionExamples.java](src/ExceptionExamples.java) há vários exem
 
 2. Identifique todas as classes de exceções dos exemplos em [ExceptionExamples.java](src/ExceptionExamples.java). Consulte a documentação de referência do Java e descubra a hierarquia de classes de cada uma das classes de exceção dos exemplos.
 
-3. Na classe `CheckedExceptionTryCatch`, temos `catch` para as exceções `FileNotFoundException` e `IOException`. Estas exceções são verificadas (checked) pelo compilador. Se removermos as 2 linhas referentes ao `catch` de `FileNotFoundException`, haverá erro na compilação do programa? Por quê?
+3. Na classe `CheckedExceptionTryCatch`, temos `catch` para as exceções `FileNotFoundException` e `IOException`. Estas exceções são verificadas (checked) pelo compilador. Se removermos as 2 linhas referentes ao `catch` de `FileNotFoundException` (linhas 94 e 95), haverá erro na compilação do programa? Por quê?
 
 
 ## Exercício
