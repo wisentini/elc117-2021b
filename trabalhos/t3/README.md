@@ -37,7 +37,7 @@ Neste trabalho, você vai contar a sua experiência com o "Day 1" de Prolog.
 
 2. Sua missão será "mergulhar" no "Day 1" de Prolog do livro, até onde conseguir, complementando a leitura com a execução dos exemplos mostrados no livro e com alguma pergunta sobre a linguagem, para a qual você vai buscar a resposta.
 
-3. Para executar exemplos mostrados no livro, você pode instalar o GNU Prolog ou usar algum ambiente online como 
+3. Para executar exemplos mostrados no livro, você pode instalar o [GNU Prolog](http://www.gprolog.org/) ou usar algum ambiente online como 
 https://www.jdoodle.com/execute-prolog-online/ (habilite o modo "Interactive").
 
 4. Antes ou depois de começar, formule sua pergunta sobre Prolog, para a qual você vai buscar a resposta (no livro ou fora dele).
