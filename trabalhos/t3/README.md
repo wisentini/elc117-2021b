@@ -24,7 +24,7 @@ Ok, você não tem 7 semanas até o final do semestre... Mas o que será que é 
 
 Um dos capítulos do livro é sobre **Prolog**, uma linguagem de **programação lógica**. O capítulo está dividido em 3 dias de aprendizado, mas... O que será que você consegue descobrir sobre essa linguagem desconhecida lendo apenas o "Day 1"?  
 
-Com tantas atividades, interrupções, interesses, notificações.. será possível parar para mergulhar em um único texto?
+Com tantas atividades, interrupções, interesses, notificações.. será possível parar para mergulhar em um único texto? Será que dá para aprender alguma coisa dessa forma?
 
 ## Objetivo
 
