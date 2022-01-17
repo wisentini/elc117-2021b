@@ -4,7 +4,7 @@
 ## Entrega
 
 
-- Entregue o projeto completo em: https://classroom.github.com/a/fjZ79Xtj
+- Entregue o trabalho em: https://classroom.github.com/a/fjZ79Xtj
 - Deadline: domingo, 23/01/2022
 
 
@@ -46,5 +46,5 @@ https://www.jdoodle.com/execute-prolog-online/ (habilite o modo "Interactive").
 
 6. Algumas possibilidades para seu relato: conte sua experiência de leitura, o que entendeu, o que não entendeu, o que deu certo ou não na execução, o que achou da linguagem nesse rápido contato, que semelhanças/diferenças você identificou entre Prolog e outras linguagens, a pergunta que você formulou, se foi possível respondê-la ou não, como buscou uma resposta, etc.
 
-
+7. No repositório de entrega, entregue o link para o seu relato.
 
