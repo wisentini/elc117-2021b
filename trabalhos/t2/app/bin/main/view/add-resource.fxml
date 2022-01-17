@@ -8,26 +8,46 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="1153.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="t2.controllers.AddResourceController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="1153.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="t2.controller.AddResourceController">
    <children>
-      <Label layoutX="457.0" layoutY="96.0" text="url:" />
-      <Label layoutX="402.0" layoutY="130.0" text="languageId:" />
-      <Label layoutX="447.0" layoutY="164.0" text="tags:" />
-      <Label layoutX="608.0" layoutY="27.0" text="Add resource">
+      <Label layoutX="608.0" layoutY="69.0" text="Add resource">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField fx:id="urlTextField" layoutX="489.0" layoutY="92.0" />
-      <TextField fx:id="languageIdTextField" layoutX="489.0" layoutY="126.0" />
-      <TextField fx:id="tagsTextField" layoutX="489.0" layoutY="160.0" />
-      <ComboBox fx:id="categoryComboBox" layoutX="791.0" layoutY="93.0" onAction="#handleSelectedCategory" prefHeight="24.0" prefWidth="170.0" />
-      <Label layoutX="719.0" layoutY="97.0" text="category:" />
-      <TextArea fx:id="commentTextArea" layoutX="489.0" layoutY="194.0" prefHeight="200.0" prefWidth="170.0" />
-      <Label layoutX="413.0" layoutY="194.0" text="comment:" />
-      <TextArea fx:id="descriptionTextArea" layoutX="791.0" layoutY="127.0" prefHeight="200.0" prefWidth="170.0" />
-      <Label layoutX="704.0" layoutY="131.0" text="description:" />
-      <Button fx:id="addResourceButton" layoutX="856.0" layoutY="337.0" mnemonicParsing="false" onAction="#addResource" text="Add resource" />
-      <Button fx:id="menuButton" layoutX="908.0" layoutY="371.0" mnemonicParsing="false" onAction="#callMenuView" text="Menu" />
+      <Label layoutX="457.0" layoutY="138.0" text="url:" />
+      <TextField fx:id="urlTextField" layoutX="489.0" layoutY="134.0" />
+      <Label layoutX="402.0" layoutY="172.0" text="languageId:" />
+      <TextField fx:id="languageIdTextField" layoutX="489.0" layoutY="168.0" />
+      <Label layoutX="447.0" layoutY="206.0" text="tags:" />
+      <TextField fx:id="tagsTextField" layoutX="489.0" layoutY="202.0" />
+      <Label layoutX="413.0" layoutY="236.0" text="comment:" />
+      <TextArea fx:id="commentTextArea" layoutX="489.0" layoutY="236.0" prefHeight="200.0" prefWidth="170.0" />
+      <Label fx:id="loadingCategoriesAsteriskLabel" layoutX="791.0" layoutY="118.0" text="*" textFill="#ff000080" visible="false">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="loadingCategoriesLabel" layoutX="800.0" layoutY="116.0" prefHeight="16.0" prefWidth="112.0" text="Loading categories..." textFill="#00000080" visible="false" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="719.0" layoutY="139.0" text="category:" />
+      <ComboBox fx:id="categoryComboBox" layoutX="791.0" layoutY="135.0" onAction="#handleSelectedCategory" prefHeight="24.0" prefWidth="170.0" />
+      <Label layoutX="704.0" layoutY="173.0" text="description:" />
+      <TextArea fx:id="descriptionTextArea" layoutX="791.0" layoutY="169.0" prefHeight="200.0" prefWidth="170.0" />
+      <Label fx:id="loadingDescriptionAsteriskLabel" layoutX="705.0" layoutY="202.0" text="*" textFill="#ff000080" visible="false">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="loadingDescriptionLabel" layoutX="715.0" layoutY="199.0" prefHeight="31.0" prefWidth="66.0" text="Loading description..." textFill="#00000080" visible="false" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button fx:id="addResourceButton" layoutX="791.0" layoutY="379.0" mnemonicParsing="false" onAction="#addResource" prefHeight="24.0" prefWidth="170.0" text="Add resource" />
+      <Button fx:id="menuButton" layoutX="791.0" layoutY="412.0" mnemonicParsing="false" onAction="#callMenuView" prefHeight="24.0" prefWidth="170.0" text="Menu" />
    </children>
 </Pane>
