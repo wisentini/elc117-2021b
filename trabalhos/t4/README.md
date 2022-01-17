@@ -4,7 +4,7 @@
 ## Entrega
 
 
-- Entregue o trabalho em: https://classroom.github.com/a/CEiYajkM
+- Entregue o trabalho em: https://classroom.github.com/a/1Y0MCa4U
 - Deadline: domingo, 13/02/2022
 
 
